@@ -15,7 +15,6 @@ import com.rs.us.repository.UserRepository;
 @Service
 public class UserServiceImpl implements UserService {
 
-	//SPRING 5 feature.............
 	public UserServiceImpl(UserRepository userRepository, CountryRepository countryRepository,
 			StateRepository stateRepository,CityRepository cityRepository) {
 		super();
